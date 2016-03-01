@@ -62,10 +62,7 @@ class FileLinesCounter implements IFileLinesCounter
 
     protected function getLine()
     {
-        while ($line = fgets($this->fileDescriptor)) {
-            return $line;
-        }
-        return false;
+        return fgets($this->fileDescriptor);
     }
 
     protected function closeFile()
