@@ -1,0 +1,13 @@
+# IDE
+.idea
+*.iml
+
+# Vendor
+vendor/*
+
+# Composer
+composer.lock
+composer.phar
+
+# PHPUnit
+phpunit.phar
